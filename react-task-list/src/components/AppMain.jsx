@@ -86,14 +86,14 @@ export default function AppMain() {
     //eseguo il return del main
     return (
         <main>
-            <h2>{welcomeMessage}</h2>
+            <h2 className="welcome">{welcomeMessage}</h2>
 
-            <h2>Current tasks</h2>
+            <h2>Current tasks (4)</h2>
             <section className="uncompletedTasks">
 
                 {uncompletedTasks.map(task =>
                     <ul>
-                        <li key={task.id}><strong>{task.title} {task.state}</strong></li>
+                        <li key={task.id}><strong>{task.title} <span>{task.state}</span></strong></li>
                         <li key={task.id}>Priority: {task.priority}</li>
                         <li key={task.id}>Estimated Time {task.estimatedTime}</li>
                     </ul>
@@ -103,11 +103,11 @@ export default function AppMain() {
 
             <hr />
 
-            <h2>Completed tasks</h2>
+            <h2>Completed tasks (6)</h2>
             <section className="completedTasks">
                 {completedTasks.map(task =>
                     <ul>
-                        <li key={task.id}><strong>{task.title} {task.state}</strong></li>
+                        <li key={task.id}><strong>{task.title} <span>{task.state}</span></strong></li>
                         <li key={task.id}>Priority: {task.priority}</li>
                         <li key={task.id}>Estimated Time {task.estimatedTime}</li>
                     </ul>

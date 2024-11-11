@@ -21,6 +21,10 @@ main {
   width: 98%;
   padding: 1rem;
 
+  .welcome {
+    text-align: center;
+  }
+
   h2 {
     margin-top: 1rem;
   }
@@ -32,6 +36,12 @@ main {
     ul {
       list-style: none;
       line-height: 1.5rem;
+    }
+
+    span {
+      background-color: #d2691e;
+      color: white;
+      padding: 0.25rem 0.75rem;
     }
   }
 
