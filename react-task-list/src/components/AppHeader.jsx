@@ -12,7 +12,7 @@ export default function AppHeader() {
         <header>
             <div className="logo">
                 <img src={reactLogo} alt="Logo React" />
-                {appName.toUpperCase()}
+                <h1>{appName.toUpperCase()}</h1>
             </div>
         </header>
     )
