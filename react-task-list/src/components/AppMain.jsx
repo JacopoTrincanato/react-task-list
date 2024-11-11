@@ -88,7 +88,20 @@ export default function AppMain() {
         <main>
             <h2>{welcomeMessage}</h2>
 
-            <section className="uncompletedTasks"></section>
+            <h2>Current tasks</h2>
+            <section className="uncompletedTasks">
+
+                {uncompletedTasks.map(task =>
+                    <ul>
+                        <li><strong>{task.title} {task.state}</strong></li>
+                        <li>Priority: {task.priority}</li>
+                    </ul>
+                )}
+
+
+
+
+            </section>
 
             <section className="completedTasks"></section>
         </main>
