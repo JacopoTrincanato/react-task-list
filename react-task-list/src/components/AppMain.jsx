@@ -101,6 +101,8 @@ export default function AppMain() {
 
             </section>
 
+            <hr />
+
             <h2>Completed tasks</h2>
             <section className="completedTasks">
                 {completedTasks.map(task =>
