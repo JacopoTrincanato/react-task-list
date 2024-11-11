@@ -90,7 +90,7 @@ export default function AppMain() {
 
             <section className="uncompletedTasks"></section>
 
-            <section className="uncompletedTasks"></section>
+            <section className="completedTasks"></section>
         </main>
     )
 };
