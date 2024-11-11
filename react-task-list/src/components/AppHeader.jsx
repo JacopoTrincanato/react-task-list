@@ -1,7 +1,7 @@
 //importo il logo di React 
 import reactLogo from '../assets/react.svg'
 
-//creo il componente dell'header
+//creo il componente AppHeader
 export default function AppHeader() {
 
     //creo una costante dove salvare il nome dell'applicazione

@@ -1,4 +1,4 @@
-//creo la funzione AppMain
+//creo il componente AppMain
 export default function AppMain() {
 
     //creo una variabile che stampi welcome to my react app
