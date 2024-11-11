@@ -80,10 +80,17 @@ export default function AppMain() {
 
     console.log(tasks);
 
+    const uncompletedTasks = tasks.filter(task => task.state !== 'completed');
+
+    const completedTasks = tasks.filter(task => task.state === 'completed');
     //eseguo il return del main
     return (
         <main>
             <h2>{welcomeMessage}</h2>
+
+            <section className="uncompletedTasks"></section>
+
+            <section className="uncompletedTasks"></section>
         </main>
     )
 };
