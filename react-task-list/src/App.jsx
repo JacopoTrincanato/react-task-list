@@ -5,6 +5,7 @@ import './App.css'
 
 //importo i componenti
 import AppHeader from './components/AppHeader'
+import AppMain from './components/AppMain'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <AppHeader />
-      <main></main>
+      <AppMain />
       <footer></footer>
     </>
   )
