@@ -95,7 +95,7 @@ export default function AppMain() {
                     <ul>
                         <li key={task.id}><strong>{task.title} <span>{task.state}</span></strong></li>
                         <li key={task.id}>Priority: {task.priority}</li>
-                        <li key={task.id}>Estimated Time {task.estimatedTime}</li>
+                        <li key={task.id}>Est. Time {task.estimatedTime}</li>
                     </ul>
                 )}
 
@@ -109,7 +109,7 @@ export default function AppMain() {
                     <ul>
                         <li key={task.id}><strong>{task.title} <span>{task.state}</span></strong></li>
                         <li key={task.id}>Priority: {task.priority}</li>
-                        <li key={task.id}>Estimated Time {task.estimatedTime}</li>
+                        <li key={task.id}>Est. Time {task.estimatedTime}</li>
                     </ul>
                 )}
             </section>
