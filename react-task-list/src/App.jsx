@@ -1,8 +1,10 @@
 import './App.css'
+import AppFooter from './components/AppFooter'
 
 //importo i componenti
 import AppHeader from './components/AppHeader'
 import AppMain from './components/AppMain'
+import AppFooter from './components/AppFooter'
 
 function App() {
 
@@ -11,7 +13,7 @@ function App() {
     <>
       <AppHeader />
       <AppMain />
-      <footer></footer>
+      <AppFooter />
     </>
   )
 }
