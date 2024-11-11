@@ -1,5 +1,4 @@
 import './App.css'
-import AppFooter from './components/AppFooter'
 
 //importo i componenti
 import AppHeader from './components/AppHeader'
