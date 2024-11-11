@@ -3,12 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+//importo i componenti
+import AppHeader from './components/AppHeader'
+
 function App() {
 
 
   return (
     <>
-      <header></header>
+      <AppHeader />
       <main></main>
       <footer></footer>
     </>
