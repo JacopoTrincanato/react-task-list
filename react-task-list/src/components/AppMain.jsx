@@ -88,7 +88,7 @@ export default function AppMain() {
         <main>
             <h2 className="welcome">{welcomeMessage}</h2>
 
-            <h2>Current tasks (4)</h2>
+            <h2>Current tasks ({uncompletedTasks.length})</h2>
             <section className="uncompletedTasks">
 
                 {uncompletedTasks.map(task =>
@@ -103,7 +103,7 @@ export default function AppMain() {
 
             <hr />
 
-            <h2>Completed tasks (6)</h2>
+            <h2>Completed tasks ({completedTasks.length})</h2>
             <section className="completedTasks">
                 {completedTasks.map(task =>
                     <ul key={task.id}>
